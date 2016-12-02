@@ -1,0 +1,24 @@
+{
+  "name": "whitegoldlabs",
+  "version": "0.1.0",
+  "description": "My personal webpage.",
+  "main": "node server/server",
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenuma/whitegoldlabs.git"
+  },
+  "author": "Clifton Roberts",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Jenuma/whitegoldlabs/issues"
+  },
+  "homepage": "https://github.com/Jenuma/whitegoldlabs#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  }
+}
