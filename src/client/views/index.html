@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +9,13 @@
         
         <script src="/angular/angular.js"></script>
         <script src="/jquery/jquery.js"></script>
+        
+        <script src="/controllers/test.controller.js"></script>
+        <script src="/controllers/app.js"></script>
     </head>
     <body>
-        Under Construction
+        <div ng-controller="TestController as Test">
+            {{Test.test}}
+        </div>
     </body>
 </html>
