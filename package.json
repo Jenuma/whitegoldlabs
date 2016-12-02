@@ -2,7 +2,7 @@
   "name": "whitegoldlabs",
   "version": "0.1.0",
   "description": "My personal webpage.",
-  "main": "node server/server",
+  "main": "node src/server/server",
   "scripts": {
     "test": "n/a"
   },
